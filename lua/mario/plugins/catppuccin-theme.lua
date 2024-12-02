@@ -17,12 +17,18 @@ return {
                 functions = {"italic"},
                 types = {"bold"}
             },
-            color_overrides = {
-                mocha = {
-                    base = "#171717", -- background
-                    surface2 = "#9A9A9A", -- comments
-                    text = "#F6F6F6"
-                }
+				color_overrides = {
+                all = {
+                    text = "#ffffff",
+                },
+                latte = {
+                    base = "#ff0000",
+                    mantle = "#242424",
+                    crust = "#474747",
+                },
+                frappe = {},
+                macchiato = {},
+                mocha = {},
             },
             highlight_overrides = {
                 mocha = function(C)
