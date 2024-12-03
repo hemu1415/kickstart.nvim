@@ -47,8 +47,9 @@ return {
                                             {})
                 vim.api.nvim_buf_set_keymap(0, "n", "<C-t>", ":GoTestPkg<CR>",
                                             {})
-                vim.api.nvim_buf_set_keymap(0, "n", "<C-c>",
-                                            ":GoCoverage -p<CR>", {})
+                -- conflict wit windows copy Ctrl-C 
+                -- vim.api.nvim_buf_set_keymap(0, "n", "<C-c>",
+                --                          ":GoCoverage -p<CR>", {})
                 vim.api.nvim_buf_set_keymap(0, "n", "<C-r>",
                                             ":GoRun<CR>", {})
 
