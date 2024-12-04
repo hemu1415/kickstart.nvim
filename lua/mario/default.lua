@@ -40,3 +40,7 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- set Ctrl-c as copy shortcut
 vim.keymap.set("v", "<C-c>", '"+y')
+
+-- highlight the command row
+-- vim.cmd.highlight('MsgArea guibg=#f56342')
+vim.cmd.highlight('MsgArea guibg=#036943')
