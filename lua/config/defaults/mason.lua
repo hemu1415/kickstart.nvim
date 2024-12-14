@@ -14,24 +14,16 @@ return {
 
   tools = {
     -- Formatter
-    "isort",
     "prettier",
     "stylua",
     "shfmt",
-    "taplo",
-    "typstfmt",
     -- Linter
     "hadolint",
-    "eslint_d",
     "shellcheck",
     "selene",
-    "tflint",
     "yamllint",
-    "ruff",
     -- DAP
-    "debugpy",
     "delve",
-    "codelldb",
     -- Go
     "gofumpt",
     "goimports",
