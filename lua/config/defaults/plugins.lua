@@ -26,17 +26,6 @@ return {
       -- https://github.com/olexsmir/gopher.nvim
       enable = false,
     },
-    -- https://github.com/Allaman/kustomize.nvim
-    kustomize = {
-      dev = false,
-      opts = {
-        kinds = {
-          -- setting those to false removes "clutter" but you cannot "jump" to a resource anymore
-          show_filepath = true,
-          show_line = true,
-        },
-      },
-    },
     lazy = {
       dev = {
         path = "$HOME/workspace/github.com/",
