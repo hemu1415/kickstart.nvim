@@ -8,7 +8,7 @@ if trouble_enabled then
   lsp_key_mapping["document_diagnostics"] = "<cmd>Trouble diagnostics toggle filter.buf=0<cr>"
   lsp_key_mapping["lsp_implementations"] = "<cmd>Trouble lsp_implementations toggle focus=false<cr>"
   lsp_key_mapping["lsp_document_symbols"] = "<cmd>Trouble symbols toggle<cr>"
-  lsp_key_mapping["lsp_references"] = "<cmd>Trouble lsp_references toggle focus=false win.position=right<cr>"
+  lsp_key_mapping["lsp_references"] = "<cmd>Trouble lsp_references toggle focus=false win.position=bottom<cr>"
   lsp_key_mapping["lsp_definitions"] = "<cmd>Trouble lsp_definitions toggle focus=false<cr>"
   lsp_key_mapping["lsp_type_definitions"] = "<cmd>Trouble lsp_type_definitions toggle focus=false<cr>"
   lsp_key_mapping["workspace_diagnostics"] = "<cmd>Trouble diagnostics toggle<cr>"

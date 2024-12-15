@@ -53,7 +53,7 @@ return {
     swapfile = true, -- enable/disable swap file creation
     tabstop = 2, -- how many columns a tab counts for
     timeoutlen = 400, -- time to wait for a mapped sequence to complete (in milliseconds)
-    ttimeoutlen = 0, -- Time in milliseconds to wait for a key code sequence to complete
+ -- ttimeoutlen = 0, -- Time in milliseconds to wait for a key code sequence to complete
     undodir = fn.stdpath("data") .. "/undodir", -- set undo directory
     undofile = true, -- enable/disable undo file creation
     undolevels = 1000,

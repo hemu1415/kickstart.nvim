@@ -17,6 +17,7 @@ return {
     "prettier",
     "stylua",
     "shfmt",
+    "yamlfmt",
     -- Linter
     "hadolint",
     "shellcheck",
